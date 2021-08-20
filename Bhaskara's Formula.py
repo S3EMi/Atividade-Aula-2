@@ -1,3 +1,6 @@
+# Nome: Matheus de Paula Barros
+# Série: 2 ano EM
+
 import math as mt
 
 def pause():
