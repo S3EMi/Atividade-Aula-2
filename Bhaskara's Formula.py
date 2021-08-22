@@ -4,11 +4,13 @@
 import math as mt
 
 def restart():
-    def gotor():
-        if pause() == "":
-            restart()
-        else:
-            restart()
+  def gotor():
+    if pause() == "":
+      clearConsole()
+      restart()
+    else:
+      clearConsole()
+      restart()
 
     def pause():
         input("\nPressione ENTER para continuar...")
