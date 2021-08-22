@@ -1,9 +1,19 @@
+import os
+
+def clearConsole():
+    command = 'clear'
+    if os.name in ('nt', 'dos'):
+        command = 'cls'
+    os.system(command)
+
 def restart():
     def gotor():
         pause()
         if pause == "":
+            clearConsole()
             restart()
         else:
+            clearConsole()
             restart()
 
     def pause():
